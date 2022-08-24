@@ -1,0 +1,35 @@
+:root {
+  --bg-primary: #9814da;
+  --bg-secondary: #a650d1;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: var(--bg-primary);
+  color: #f4f4f9;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.ip {
+  border-radius: 5px;
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+  font-size: 5rem;
+  font-weight: 300;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
