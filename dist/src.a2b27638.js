@@ -239,7 +239,7 @@ var fetchIP = /*#__PURE__*/function () {
 }();
 
 fetchIP();
-document.getElementById("app").innerHTML = "\n<main>\n  <div class=\"container\">\n    <h1>Din publika IP-adress \xE4r:</h1>\n    <div class=\"ip\">".concat(isLoading && "Laddar...", "</div>\n    <p class=\"vpn-info\">PS. Avaktivera din VPN-klient om du anv\xE4nder en s\xE5dan. T.ex. f\xF6r att komma \xE5t ditt arbetes intran\xE4t fr\xE5n ditt hem. Annars kommer IP-adressen som visas inte att vara din egna.</p>\n  </div>\n</main>\n");
+document.getElementById("app").innerHTML = "\n<main>\n  <div class=\"container\">\n    <h1 class=\"heading\">Din publika IP-adress \xE4r:</h1>\n    <div class=\"ip\">".concat(isLoading && "Laddar...", "</div>\n    <p class=\"vpn-info\">PS. Avaktivera din VPN-klient om du anv\xE4nder en s\xE5dan. T.ex. f\xF6r att komma \xE5t ditt arbetes intran\xE4t fr\xE5n ditt hem. Annars kommer IP-adressen som visas inte att vara din egna.</p>\n  </div>\n</main>\n");
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -268,7 +268,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45977" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38525" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
