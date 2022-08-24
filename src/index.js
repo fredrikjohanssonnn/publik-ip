@@ -18,8 +18,9 @@ fetchIP();
 document.getElementById("app").innerHTML = `
 <main>
   <div class="container">
-  <h1>Din publika IP-adress är:</h1>
-  <div class="ip">${isLoading && "Laddar..."}</div>
+    <h1>Din publika IP-adress är:</h1>
+    <div class="ip">${isLoading && "Laddar..."}</div>
+    <p class="vpn-info">PS. Avaktivera din VPN-klient om du använder en sådan. T.ex. för att komma åt ditt arbetes intranät från ditt hem. Annars kommer IP-adressen som visas inte att vara din egna.</p>
   </div>
 </main>
 `;
